@@ -1,5 +1,5 @@
 
-SELECT 
+SELECT DISTINCT
 		DIV.Division_Name
 	 ,  CASE WHEN  PC.PC_Code IS NULL THEN NULL
 		  WHEN  PC.PC_Code = '#N/A' THEN NULL
